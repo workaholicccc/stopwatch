@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.timer{
+    font-size: 3em;
+}
+
+.stopwatch{ /*stopwatch*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    border:2px solid black;
+    padding:30px 50px;    
+    border-radius: 10px;
+}
+
+ 
+#start{ /*start button*/
+    margin-right: 10px;
+    background-color:green;
+    color:white;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#stop{ /*stop button*/
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color:red;
+    color:white;
+    border-radius:10px;
+    font-size: 1em;
+}
+
+
+
+#reset{  /*reset button*/
+    margin-right: 10px;
+    background-color: skyblue;
+    color:white;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+
+
+
+
+
